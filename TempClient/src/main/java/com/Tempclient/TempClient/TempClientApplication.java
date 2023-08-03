@@ -23,7 +23,7 @@ public class TempClientApplication {
 		@Bean
 	    public SaopClient saopClientforBean(Jaxb2Marshaller marshaller) {
 	        SaopClient client = new SaopClient();
-	        client.setDefaultUri("https://www.w3schools.com/xml/tempconvert.asmx"); // Replace with your actual web service URL
+	        client.setDefaultUri("https://www.w3schools.com/xml/tempconvert.asmx"); 
 	        client.setMarshaller(marshaller);
 	        client.setUnmarshaller(marshaller);
 	        return client;
