@@ -30,7 +30,6 @@ public class SaopClient extends WebServiceGatewaySupport{
 	    }
 
 	    public double fahrenheitToCelsius(double fahrenheit) {
-	        // Replace the URL with your actual web service URL
 	        String url = "https://www.w3schools.com/xml/tempconvert.asmx?WSDL";
 
 	        FahrenheitToCelsius request = new FahrenheitToCelsius();
