@@ -18,7 +18,7 @@ public class SaopClient extends WebServiceGatewaySupport{
 	    private Jaxb2Marshaller marshaller;
 
 	    public double celsiusToFahrenheit(double celsius) {
-	        // Replace the URL with your actual web service URL
+	    
 	        String url = "https://www.w3schools.com/xml/tempconvert.asmx?WSDL";
 
 	        CelsiusToFahrenheit request = new CelsiusToFahrenheit();
